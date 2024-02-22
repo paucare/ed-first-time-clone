@@ -6,6 +6,7 @@ import com.iesam.firsttime.features.welcome.domain.ShowWelcomeMessageUseCase;
 
 public class WelcomePresentation {
 
+    //Esto es una prueba
     public static void showWelcomeMessage() {
         ShowWelcomeMessageUseCase showWelcomeMessageUseCase = new ShowWelcomeMessageUseCase(
                 new AppConfigDataRepository(new FileLocalDataSource()));
